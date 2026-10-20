@@ -25,8 +25,8 @@ If you only have a minute, review these:
 
 Job market analysts need to answer questions like:
 
-- 🎯 **Most in-demand:** *Which skills are most in-demand for data engineers?*  
-- 💰 **Highest paid:** *Which skills command the highest salaries?*  
+- 🎯 **Most in-demand:** *Which skills are most in-demand for data engineers in Canada?*  
+- 💰 **Highest paid:** *Which skills command the highest salaries in Canada?*  
 - ⚖️ **Best trade-off:** *What is the optimal skill set balancing demand and compensation?*  
 
 This project analyzes a **data warehouse** built using a star schema design. The warehouse structure consists of:
@@ -68,8 +68,8 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ### Query Structure
 
-1. **[Top Demanded Skills](./01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Top Paying Skills](./02_top_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+1. **[Top Demanded Skills](./01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions in Canada
+2. **[Top Paying Skills](./02_top_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary in Canada and demand metrics
 3. **[Optimal Skills](./03_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
 
 ### Key Insights
